@@ -15,3 +15,7 @@ Python script for calculating daily **Value at Risk (VaR)** and **Conditional Va
 ### Handling recent IPOs
 Some stocks in the portfolio went public after 2010 (`PLTR`, `ARM`, `SNOW`, `CEG`, `NBIS`). Instead of dropping everything before their IPO date, missing pre-IPO returns are backfilled using `SPY` daily returns scaled by each stock's volatility relative to `SPY`
 
+![VaR 95%](portfolio_var_95%25_hist.png)
+![VaR 99%](portfolio_var_99%25_hist.png)
+
+
