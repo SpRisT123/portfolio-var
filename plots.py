@@ -14,7 +14,7 @@ def plot_var(portfolio_returns, h_var, p_var, mc_var, c_var, conf):
     plot.legend()
     plot.gca().xaxis.set_major_formatter(mtick.PercentFormatter(1.0))
     plot.title(f"Portfolio Returns and VaR at {conf:.0%} Confidence Level", fontsize=16)
-    plot.savefig(f'portfolio_var_{conf:.0%}_hist.png', dpi=150)
+    plot.savefig(f'charts/portfolio_var_{conf:.0%}_hist.png', dpi=150)
     plot.show()
 
     
